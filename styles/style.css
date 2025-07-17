@@ -135,14 +135,15 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 50px 142px;
-  
+  gap: 140px;
   max-width: 856px;
 }
 .h1-text{
   padding: 50px 0 0 0 ;
   font-size: 38px;
   font-weight: bold;
-  max-width: 800px;
+  
+  justify-content: center;
 
 }
 .scil-text{
@@ -247,7 +248,44 @@ footer{
   max-width: 1440px;
   justify-content: center;
   justify-items: center;
-  padding: 104px 400px;
+  
  
 
+}
+.footer-content{
+  padding: 104px 400px;
+}
+.footer-title{
+  text-align: center;
+  color: #4E47FF;
+  font-weight: bold;
+  font-size: 85px;
+
+}
+.footer-text{
+  color: #8987A1;
+  font-size: 20px
+}
+.ancor{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  
+  
+  
+}
+.ancor ul{
+  display: flex;
+  gap: 48px;
+}
+
+.ancor ul li{
+  list-style: none;
+  
+  
+}
+.ancor ul li a{
+  text-decoration: none;
+  color: #8987A1;
 }
