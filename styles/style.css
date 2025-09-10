@@ -32,18 +32,23 @@ body {
   color: #0f0f0f;
   line-height: 1.6;
 }
-.navbar{
+
+  .navbar{
   max-width: 1140px;
   display: flex;
   justify-content: space-between;
-  margin: 0 150px;
+  margin: 0 auto; 
+  padding: 0 20px;
  
 }
+
 .nav{
   max-width: 1440px;
+  margin: auto;
   
   background-image: url("../Assets/Hero-bg.png");
   justify-content: center;
+  
   padding: 50px 0px;
 }
 .logo{
@@ -105,17 +110,19 @@ body {
 .action-text{
   font-size: 24px;
   margin-bottom: 23px;
+  color: #25243280;
+  padding:  20px 0;
 }
 
 
 .action{
   max-width: 1140px;
   display: flex;
-  margin: 116px 159px 116px 144px;
+  margin: 116px auto ;
   
   align-items: center;
   justify-content: space-between;
-  gap: 37px;
+  /* gap: 37px; */
   
   
 
@@ -125,18 +132,24 @@ body {
   background-color: #b0aeeb;
   border-radius: 24px;
   max-width: 1140px;
-  margin: 0 169px 137px 141px;
-  text-align: center;
+  margin: 169px auto;
+  align-items: center;
   
+  
+}
+
+.scil-text{
+  text-align: center;
 }
 
 
 .stats{
   display: flex;
   justify-content: space-around;
-  padding: 50px 142px;
+  padding: 40px;
   gap: 140px;
   max-width: 856px;
+  margin: 0 auto;
 }
 .h1-text{
   padding: 50px 0 0 0 ;
@@ -154,7 +167,7 @@ body {
 /* testimonials style */
 .testimonials{
   max-width: 1140px;
-  margin: 157px 149px 137px 151px;
+  margin: 150px auto;
   
   
 }
@@ -183,9 +196,14 @@ body {
 
 }
 
+.card-container{
+  padding: 20px 0;
+}
+
 .testimonials-img{
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .rest-text{
   border: none;
@@ -210,12 +228,13 @@ body {
   height: 60px;
 }
 .contacts{
+  margin: auto;
   display: flex;
   max-width: 1140px;
   justify-content: space-between;
   align-items: center;
   gap: 110px;
-  margin: 90px 0px 10px 150px;
+  /* margin: 90px 0px 10px 150px; */
   
   
 }
@@ -245,16 +264,18 @@ body {
 }
 /* footer style */
 footer{
+  
   max-width: 1440px;
-  justify-content: center;
-  justify-items: center;
+  margin: 100px auto;         
+  display: flex;          
+  flex-direction: column;  
+  align-items: center;     
+  text-align: center; 
   
  
 
 }
-.footer-content{
-  padding: 104px 400px;
-}
+
 .footer-title{
   text-align: center;
   color: #4E47FF;
